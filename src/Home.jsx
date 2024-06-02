@@ -151,7 +151,6 @@ const Home = () => {
         color="secondary"
         aria-label="refresh"
         onClick={fetchData}
-        size="medium"
         sx={{ position: "fixed", bottom: 16, right: 16, borderRadius: '15px'}}
       >
         <RefreshIcon style={{ width: 15 }} />
